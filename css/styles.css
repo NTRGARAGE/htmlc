@@ -1,0 +1,283 @@
+body {
+  margin: 10px;
+  background: linear-gradient(
+    90deg,
+    rgba(186, 191, 178, 1) 0%,
+    rgba(69, 232, 245, 0.8076272745426296) 50%,
+    rgba(9, 140, 147, 1) 100%
+  );
+}
+
+img {
+  width: 100px;
+}
+.viscss {
+  float: right;
+  background-color: black;
+  -webkit-text-fill-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 3px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.imgb {
+  width: 100px;
+  border-radius: 50px;
+}
+em {
+  background-color: yellow;
+  font-style: normal;
+}
+.unorderli {
+  list-style-type: none;
+}
+.orderli {
+  list-style-type: none;
+}
+.descli {
+  list-style-type: none;
+}
+table,
+td,
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 8px;
+}
+.div {
+  background-color: yellowgreen;
+}
+.span {
+  background-color: yellowgreen;
+}
+.elem {
+  width: 400px;
+}
+.marqueee {
+  background-color: red;
+  -webkit-text-fill-color: white;
+}
+.marquee {
+  background-color: rgb(157, 188, 224);
+  -webkit-text-fill-color: black;
+  padding: 10px;
+  font-size: larger;
+  font-family: "San Francisco";
+}
+.seminav {
+  background-color: orange;
+  padding: 10px;
+  font-family: "San Francisco";
+  border-radius: 5px;
+}
+.photos {
+  background-color: rgb(229, 229, 248);
+  padding-left: 15px;
+  padding-top: 0.5px;
+  border-radius: 10px;
+  padding-bottom: 5px;
+  font-family: "San Francisco";
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+.text {
+  background-color: rgb(223, 243, 219);
+  padding-left: 15px;
+  padding-top: 0.5px;
+  border-radius: 10px;
+  padding-bottom: 5px;
+  font-family: "San Francisco";
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+.Head {
+  background-color: rgb(169, 214, 156);
+  padding-left: 15px;
+  padding-top: 0.5px;
+  border-radius: 10px;
+  padding-bottom: 5px;
+  font-family: "San Francisco";
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.text {
+  background-color: rgb(223, 243, 219);
+  padding-left: 15px;
+  padding-top: 0.5px;
+  border-radius: 10px;
+  padding-bottom: 5px;
+  font-family: "San Francisco";
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+.Hlinks {
+  background-color: rgb(229, 229, 248);
+  padding-left: 15px;
+  padding-top: 0.5px;
+  border-radius: 10px;
+  padding-bottom: 5px;
+  font-family: "San Francisco";
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+.vidaud {
+  background-color: rgb(223, 243, 219);
+  padding-left: 15px;
+  padding-top: 0.5px;
+  border-radius: 10px;
+  padding-bottom: 5px;
+  font-family: "San Francisco";
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.Lists {
+  background-color: rgb(229, 229, 248);
+  padding-left: 15px;
+  padding-top: 0.5px;
+  border-radius: 10px;
+  padding-bottom: 5px;
+  font-family: "San Francisco";
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+.tables {
+  background-color: rgb(223, 243, 219);
+  padding-left: 15px;
+  padding-top: 0.5px;
+  border-radius: 10px;
+  padding-bottom: 5px;
+  font-family: "San Francisco";
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+.Containers {
+  background-color: rgb(229, 229, 248);
+  padding-left: 15px;
+  padding-top: 0.5px;
+  border-radius: 10px;
+  padding-bottom: 5px;
+  font-family: "San Francisco";
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+.selem {
+  background-color: rgb(223, 243, 219);
+  padding-left: 15px;
+  padding-top: 0.5px;
+  border-radius: 10px;
+  padding-bottom: 5px;
+  font-family: "San Francisco";
+  box-shadow: 0px 0px 20px rgba(92, 71, 71, 0.2) 2;
+}
+.bottom {
+  background-color: red;
+  -webkit-text-fill-color: white;
+  font-size: larger;
+  font-style: initial;
+}
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 500;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff");
+}
+
+.mainhead {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  font-family: "San Francisco";
+}
+.seminavtext {
+  font-family: "San Francisco";
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.btn {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  color: black;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 2px 2px 3px #999;
+  background-image: url(images/ntr.jpg);
+}
+
+.my-float {
+  margin-top: 22px;
+}
+
+.selecsss {
+  background-color: rgb(229, 229, 248);
+  padding-left: 20px;
+  padding-top: 0.5px;
+  border-radius: 10px;
+  padding-bottom: 5px;
+  font-family: "San Francisco";
+}
+
+.procsss,
+.procssli {
+  background-color: rgb(223, 243, 219);
+  padding-left: 15px;
+  padding-top: 0.5px;
+  border-radius: 10px;
+  padding-bottom: 5px;
+  font-family: "San Francisco";
+}
+
+.normcsss {
+  background-color: rgb(223, 243, 219);
+  padding-left: 15px;
+  padding-top: 0.5px;
+  border-radius: 10px;
+  padding-bottom: 5px;
+  font-family: "San Francisco";
+}
+
+.selecss,
+.selecssli {
+  background-color: rgb(229, 229, 248);
+  padding-left: 20px;
+  padding-top: 0.5px;
+  border-radius: 10px;
+  padding-bottom: 5px;
+  font-family: "San Francisco";
+}
+
+.speccs {
+  background-color: rgb(223, 243, 219);
+  padding-left: 15px;
+  padding-top: 0.5px;
+  border-radius: 10px;
+  padding-bottom: 5px;
+  font-family: "San Francisco";
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.simg {
+  width: 300px;
+  border-radius: 15px;
+}
+
+.colorcs {
+  background-color: rgb(229, 229, 248);
+  padding-left: 20px;
+  padding-top: 0.5px;
+  border-radius: 10px;
+  padding-bottom: 5px;
+  font-family: "San Francisco";
+}
+.gradientcs {
+  background-color: rgb(223, 243, 219);
+  padding-left: 15px;
+  padding-top: 0.5px;
+  border-radius: 10px;
+  padding-bottom: 5px;
+  font-family: "San Francisco";
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.snavelem {
+  padding-left: 3px;
+  padding-right: 3px;
+}
