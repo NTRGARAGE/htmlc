@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <style>
+        @font-face {
+  font-family: "San Francisco";
+  font-weight: 500;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff");
+}
+        body {
+            font-family: "San Francisco";
+        }
+        .box{
+             background-color:tomato;
+             width: 300px;
+             height: 300px;
+             border-radius: 20px;
+             box-shadow:10px 10px  lightgrey;
+        }
+        
+        *{
+            box-sizing:border-box;
+        }
+        p::first-letter{
+            font-size: larger;
+            font-weight: bolder;
+        }
+        p {
+            text-indent: 40px;
+        }
+
+        th {
+            background-color:#427fef;
+            color:white;
+            
+        }
+        table , tr {
+           border-collapse: collapse;
+           
+        }
+        tbody tr:nth-child(odd){
+            background-color: #eef7ff;
+        }
+        tfoot tr {
+            background-color:#427fef;
+            color:white;
+        }
+        table ,th ,tr ,td{
+            padding: 12px;          
+        }
+        
+    
+        
+    </style>
+</head>
+<body>
+    <div class="box">
+
+    </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta modi dignissimos facilis. Perspiciatis voluptates eveniet ducimus est dignissimos quidem dicta accusamus, deleniti debitis dolorem, possimus fugit incidunt aut repellendus nobis.
+    Hic quis similique reprehenderit aperiam autem ex. Fugiat, necessitatibus repellat! Libero facere eveniet praesentium harum, blanditiis atque modi. Veritatis delectus adipisci dolorem consequatur atque ratione officia voluptate dicta praesentium a.
+    Nihil, quae ipsam. Labore, ratione voluptas dignissimos sapiente, quod, magnam expedita qui fugiat illum sint sunt? Unde sapiente ullam corporis, tempore accusantium libero quos, aliquid sint illo sequi, nihil velit?
+    Ea dignissimos maxime ad iste! Fugiat est quibusdam earum. Blanditiis saepe molestiae reiciendis debitis mollitia ullam molestias quis magnam, nulla veniam aliquam, ab non, facere repudiandae tempora deleniti deserunt exercitationem.
+    Quaerat totam eius dolorum recusandae quibusdam, pariatur dolores quam perferendis in! Numquam quam odit velit sunt voluptates ea illo laborum hic sint distinctio, animi, voluptas provident! Ab optio aspernatur eum.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+
+
+    <p>Exersice</p>
+    <p>Create a table as shown below. Use pseudo-class selectors to highlight the odd rows. You can find the solution in the zip file attached to this lesson in the table folder. 
+    </p>
+    <div>
+    <table>
+        <tr>
+            <th>Country</th>
+            <th>Order Id</th>
+            <th>Order Amount</th>
+        </tr>
+        <tr>
+            <td>USA</td>
+            <td>1000</td>
+            <td>$1300</td>
+        </tr>
+        <tr>
+            <td>USA</td>
+            <td>1000</td>
+            <td>$1300</td>
+        </tr>
+        <tr>
+            <td>USA</td>
+            <td>1000</td>
+            <td>$1300</td>
+        </tr>
+        <tr>
+            <td>USA</td>
+            <td>1000</td>
+            <td>$1300</td>
+        </tr>
+        <tfoot>
+            <tr>
+                <td colspan="2">Total</td>
+             <td>$5200</td></tr>
+        </tfoot>
+
+    </table>
+    </div>
+    <div class="ex2"></div>
+</body>
+</html>
